@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@keyframes bg-animi {
+    0% {
+        background-image: url("images/heading-bg/img-1.jpg");
+    }
+
+    32% {
+        background-image: url("images/heading-bg/img-1.jpg");
+
+    }
+
+    33% {
+        background-image: url("images/heading-bg/img-2.jpg");
+
+    }
+
+    83% {
+        background-image: url("images/heading-bg/img-2.jpg");
+
+    }
+
+    84% {
+        background-image: url("images/heading-bg/img-3.jpg");
+
+    }
+
+    100% {
+        background-image: url("images/heading-bg/img-3.jpg");
+
+    }
+}
+
+header {
+    min-height: 920px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.558), rgba(0, 0, 0, 0.575)), url("images/heading-bg/img-1.jpg");
+    /* animation: bg-animi 20s linear 0s infinite alternate; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.heading-article {
+    color: white;
+    text-align: center;
+
+}
+
+.article-title {
+    background-image: linear-gradient(rgba(107, 42, 42, 0.198), rgba(117, 50, 50, 0.273));
+
+}
