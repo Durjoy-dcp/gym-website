@@ -5,42 +5,45 @@ body {
 
 }
 
+input::placeholder {
+    color: red;
+    opacity: 1;
+    /* Firefox */
+}
+
 @keyframes bg-animi {
     0% {
-        background-image: url("images/heading-bg/img-1.jpg");
-    }
-
-    32% {
-        background-image: url("images/heading-bg/img-1.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.558), rgba(0, 0, 0, 0.575)), url("images/heading-bg/img-1.jpg");
 
     }
 
-    33% {
-        background-image: url("images/heading-bg/img-2.jpg");
+
+    50% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.558), rgba(0, 0, 0, 0.575)), url("images/heading-bg/img-2.jpg");
 
     }
 
-    83% {
-        background-image: url("images/heading-bg/img-2.jpg");
 
-    }
 
-    84% {
-        background-image: url("images/heading-bg/img-3.jpg");
-
-    }
 
     100% {
-        background-image: url("images/heading-bg/img-3.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.558), rgba(0, 0, 0, 0.575)), url("images/heading-bg/img-3.jpg");
 
     }
+}
+
+.navbar {
+
+    background-color: #2b2024c4;
 }
 
 header {
 
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.558), rgba(0, 0, 0, 0.575)), url("images/heading-bg/img-1.jpg");
-    /* animation: bg-animi 20s linear 0s infinite alternate; */
+    animation: bg-animi 10s linear infinite alternate;
+
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -48,7 +51,7 @@ header {
 }
 
 .heading-article {
-    min-height: 920px;
+    min-height: 620px;
 }
 
 .heading-article {
