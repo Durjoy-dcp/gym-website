@@ -37,7 +37,7 @@ body {
 }
 
 header {
-    min-height: 920px;
+
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.558), rgba(0, 0, 0, 0.575)), url("images/heading-bg/img-1.jpg");
     /* animation: bg-animi 20s linear 0s infinite alternate; */
@@ -45,6 +45,10 @@ header {
     background-size: cover;
     background-position: center;
 
+}
+
+.heading-article {
+    min-height: 920px;
 }
 
 .heading-article {
